@@ -1,0 +1,55 @@
+div{
+  color: white;
+  font-family: 'Arial';
+}
+p{
+  font-size: 16px;
+  font-weight: bold;
+}
+#main{
+  position: absolute;
+  height: 80%;
+  overflow: scroll;
+}
+body{
+  /* background-image: url('./assets/background.png'); */
+  background-color: rgb(90,90,90);
+  background-repeat:no-repeat;
+  background-size: cover;
+  padding:20px;
+}
+a{
+  text-decoration: none;
+  color:inherit;
+  cursor: pointer;
+}
+a:hover{
+  background-color: white;
+  color: black;
+}
+li div{
+  height: 18px;
+  opacity: 1;
+  background-color: rgb(90,90,90);
+  width:auto;
+  overflow: hidden;
+  margin-bottom: 15px;
+}
+li div p{
+  margin-top: 0px;
+  margin-bottom: 5px;
+  font-weight: normal;
+  font-style: oblique;
+}
+li div:hover{
+  height: 50px;
+  transition: height ease .3s;
+}
+ul{
+  padding-left:30px;
+  margin-bottom:35px;
+}
+#footer{
+  position: absolute;
+  bottom: 20px;
+}
